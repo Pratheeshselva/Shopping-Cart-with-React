@@ -34,7 +34,7 @@ setRating(rate)
               <h5 className="fw-bolder">{data.name}</h5>
               {/* <!-- Product price--> */}
               {data.isSale?<span>
-              <s className="light-text">${data.price}</s> ${data.discoutPrice}</span>: <span>
+              <s className="light-text">${data.price}</s> ${data.discoutPrice}<br/></span>: <span>
 
               ${data.price}<br/></span>}
               <br/>
